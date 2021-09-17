@@ -1,0 +1,95 @@
+
+/*------relative to div----------*/
+.wrap {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+  .left,
+  .right {
+      min-width: 400px;
+      display:table-cell;
+      vertical-align: top;
+  } 
+  /*input chart*/
+.ipCt{
+  width: 40px;
+}
+tr:hover{
+  background-color: #d6d6d6;
+}
+
+/*relative topo&force*/
+.topo{
+  margin-block-start: 30px;
+}
+
+/*------relative to button----------*/
+
+.butFunc {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+ /*  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s; */
+  padding: 10px 25px;
+}
+.buttFunc:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.buttAdd{
+  text-align: center;
+  padding: 3px 92px;
+  background-color:#d6d6d6;
+  border: none;
+}
+.buttDel{
+  text-align: center;
+  background-color:#d6d6d6;
+  border: none;
+}
+.buttEdg:hover {
+  background-color: #cccaca;
+}
+.dropBtn{
+  background-color: #f9f9f9; /* Green */
+  border: none;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+ }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+ }
+ .dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ }  
+
+ .dropdown-content button:hover {
+  background-color: #f1f1f1
+ } 
+
+ .dropdown:hover .dropdown-content {
+  display: block;
+ }  
+
+
+
+

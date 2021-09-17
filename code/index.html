@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<body>
+  <div class="wrap">
+    <div class="left" id="lside">
+      <b>np:number of point</b>(2-90):&emsp;<input type="number" id="pointNum" min="2" max="90">
+      <br><br><br>
+      <b>edge information</b>(number 1-np represent each node)<br><br>
+      <table id="edgeInfo">
+        <thead align="center" bgcolor="#d6d6d6">
+          <td width="50">src</td>
+          <td width="50">dst</td>
+          <td width="50">weight</td>
+          <td width="40"></td>
+        </thead>
+        <tbody id="tb" align="center">
+
+        </tbody>
+      </table>
+      <input type="button" value="Add" onclick="add()" class="buttAdd buttEdg"><br><br>
+      <button onclick="graph()" class="butFunc buttFunc" id="BtnSt">ok</button>
+      <div class=dropdown>
+        <button class="butFunc buttFunc" id="BtnTopo" style="display:none;">TopoSort</button>
+        <div class=dropdown-content>
+          <button onclick="topoDisplay(0)" class="dropBtn">animation</button>
+          <button onclick="topoDisplay(1)" class="dropBtn">by clicking </button>
+        </div>
+      </div>
+      <button class="butFunc buttFunc" id="BtnCP" style="display:none;" onclick="CrtPthDisplay()">CriticalPath</button>
+      <button class="butFunc buttFunc" id="BtnNext" style="display:none;">next</button>
+    </div>
+
+    <div id="rside" class="right"></div>
+  </div>
+  <div id="topo" class="topo"></div>
+  <div id="CP" class="CP"></div>
+
+</body>
+
+</html>
+
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="js/showList.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/topoSort.js"></script>
+<script type="text/javascript" src="js/criticalPath.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
