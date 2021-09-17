@@ -8,5 +8,5 @@
 ### tool
 html + js + css + d3
 
-### click [here](http://htmlpreview.github.io/github.com/Iris-Song/algorithms-of-directed-graph-visualization/blob/main/code/index.html) and try
+### click [here](https://iris-song.github.io/algorithms-of-directed-graph-visualization/code/index.html) and try
 
