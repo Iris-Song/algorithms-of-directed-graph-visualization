@@ -8,5 +8,5 @@
 ### tool
 html + js + css + d3
 
-### click here[http://htmlpreview.github.io/] and try
+### click [here](http://htmlpreview.github.io/https://github.com/Iris-Song/algorithms-of-directed-graph-visualization/blob/main/code/index.html) and try
 
